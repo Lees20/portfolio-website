@@ -1,0 +1,21 @@
+body, html, .App {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .full-screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body {
+    background-color: #f0f0f0; /* Original background color */
+    transition: background-color 0.5s ease; /* Smooth transition */
+  }

@@ -1,0 +1,17 @@
+#projects {
+    padding: 50px 20px;
+    background: #fff;
+    margin-bottom: 20px;
+  }
+  
+  #projects h2 {
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  

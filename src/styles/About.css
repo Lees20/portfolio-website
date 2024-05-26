@@ -1,0 +1,33 @@
+@import url('https://use.typekit.net/your-kit-id.css');
+
+.about-section {
+  padding: 40px 20px;
+  height: 100vh;
+  background-color: black; /* Ensures the background is black */
+  color: white; /* Ensures the text is white */
+  text-align: center;
+}
+
+.pixel-about-text {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 20px 0;
+  white-space: pre-line; /* Ensures the text wraps correctly and preserves newlines */
+}
+
+/* Cursor styling */
+.typed-cursor {
+  font-size: 1.2rem;
+  color: white;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
